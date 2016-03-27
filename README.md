@@ -6,7 +6,7 @@ If you are not familiar with Go : google is your best friend!
 
 # Install with [rmbash](https://github.com/romainmenke/rmbash)
 
-Create directories:
+Create directories :
 ```
  mkdir -p anywhereYouLike/MySwiftDirectory/
 ```
@@ -16,7 +16,7 @@ I chose :
  mkdir -p $HOME/Swift
 ```
  
-Add to .bash_profile
+Add to .bash_profile :
 ```
  export RMSWIFTPATH=anywhereYouLike/MySwiftDirectory
 ```
@@ -25,6 +25,8 @@ I chose :
 ```
  export RMSWIFTPATH=$HOME/Swift
 ```
+
+Get :
 
 ```
 rmbash get github.com/romainmenke/rmswift
