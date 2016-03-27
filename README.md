@@ -18,8 +18,12 @@ I chose :
  
 Add to .bash_profile
 ```
- export RMSWIFTPATH=$HOME/anywhereYouLike/MySwiftDirectory
- export Path="$Path:RMSWIFTPATH/bin"
+ export RMSWIFTPATH=anywhereYouLike/MySwiftDirectory
+```
+
+I chose : 
+```
+ export RMSWIFTPATH=$HOME/Swift
 ```
 
 ```
