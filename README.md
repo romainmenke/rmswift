@@ -44,9 +44,12 @@ You are good to go!
 ```
  info || help 
 
- create    :->   create empty bash script in src dir
- get       :->   clone git repo into RMSWIFTPATH/src/
-
+ create          :->   create empty swift file in src dir
+ build           :->   build in RMSWIFTPATH
+ build debug     :->   build debug in RMSWIFTPATH
+ build release   :->   build release in RMSWIFTPATH
+ clean           :->   clean .build dir of package
+ get             :->   clone git repo into RMSWIFTPATH/src/
 ```
 
 # Licence
