@@ -26,8 +26,12 @@ I chose :
  export RMSWIFTPATH=$HOME/Swift
 ```
 
-rmbash :
+Run Commands :
+```
+source .bash_profile
+```
 
+rmbash :
 ```
 rmbash get github.com/romainmenke/rmswift
 rmbash install github.com/romainmenke/rmswift
