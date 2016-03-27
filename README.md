@@ -26,7 +26,7 @@ I chose :
  export RMSWIFTPATH=$HOME/Swift
 ```
 
-Get :
+rmbash :
 
 ```
 rmbash get github.com/romainmenke/rmswift
