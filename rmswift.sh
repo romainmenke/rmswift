@@ -20,7 +20,9 @@ if [ "$1" == "build" ]; then
   if [ "$2" == "debug" ]; then
 
     cd $RMSWIFTPATH/src/$3
-    rm -f $buildDir/debug/$(basename $3)
+    if [ -d $buildDir/debug/$(basename $3) ]; then
+      rm -rf $buildDir/debug/$(basename $3)
+    fi
 
     swift build --clean
     swift build --configuration debug
@@ -31,7 +33,9 @@ if [ "$1" == "build" ]; then
   elif [ "$2" == "release" ]; then
 
     cd $RMSWIFTPATH/src/$3
-    rm -f $buildDir/$(basename $3)
+    if [ -d $buildDir/$(basename $3) ]; then
+      rm -rf $buildDir/$(basename $3)
+    fi
 
     swift build --clean
     swift build --configuration release
@@ -42,7 +46,9 @@ if [ "$1" == "build" ]; then
   else
 
     cd $RMSWIFTPATH/src/$2
-    $buildDir/$(basename $2)
+    if [ -d $buildDir/debug/$(basename $2) ]; then
+      rm -rf $buildDir/debug/$(basename $2)
+    fi
 
     swift build --clean
     swift build --configuration debug
