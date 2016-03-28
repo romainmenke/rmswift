@@ -40,11 +40,11 @@ rmbash install github.com/romainmenke/rmswift
 You are good to go!
 
 
-# Commands (rmbash)
+# Commands (rmswift)
 ```
  info || help 
 
- create          :->   create empty swift file in src dir
+ create          :->   create empty swift package in src dir
  build           :->   build in RMSWIFTPATH
  build debug     :->   build debug in RMSWIFTPATH
  build release   :->   build release in RMSWIFTPATH
